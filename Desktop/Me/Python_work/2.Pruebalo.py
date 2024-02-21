@@ -60,3 +60,25 @@ print(f"\n"+nam.strip())
 
 fileName = 'Python_notes.txt'
 print(f"\n"+fileName.removesuffix('.txt')+f"\n")
+
+# 2-9.  Número ocho: Escriba operaciones de suma, resta, multiplicación y división que den como resultado
+#       el número 8. Asegúrese de incluir sus operaciones en llamadas a print() para ver los resultados.
+
+print(5+3)
+print(9-1)
+print(4*2)
+print(16/2)
+
+#2-10.  Número favorito: Use una variable para representar su número favorito. A continuación, 
+#       usando esa variable, cree el mensaje que revele su número favorito e imprímalo.
+
+numero_fav = '25'
+print(f"\nMi número fav es: "+numero_fav+f"\n")
+
+#2-12.  Zen de Python: Escriba import this en una sesión de terminal de Python
+#       y lea todos los principios.
+
+import this
+
+
+
