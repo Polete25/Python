@@ -23,3 +23,21 @@ print(bycicles)
 too_expensive = 'trek'
 bycicles.remove(too_expensive) # solo borra el primero que encuentra, si queremos borrar más hay que utlizar un bucle
 print(bycicles)
+
+cars = ['honda','toyota','bmw','audi','mercedes']
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print (cars)
+
+cars = ['honda','toyota','bmw','audi','mercedes']
+print(f'\nThis is the Original list: ') 
+print(cars)
+print(f'\nThis is the list shorted by alphabet: ')
+print('\n')
+print(sorted(cars).reverse())
+print('\n')
+cars.reverse()
+cars.reverse()
+print(cars)
+print(len(cars))
