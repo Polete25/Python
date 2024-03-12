@@ -142,17 +142,9 @@ class Car:
         el cambio si intenta hacer retroceder el cuentakilómetros. """
         if mileage >= self.odometer_reading: 
             self.odometer_reading = mileage
-            else: print("You can't roll back an odometer!") 
+        else: 
+            print("You can't roll back an odometer!") 
     def increment_odometer(self, miles):
-        """Suma la cantidad dada a la lectura del cuentakilómetros.""" self.odometer_reading += miles
-
-
-
-
-
-
-
-
-
-
+        """Suma la cantidad dada a la lectura del cuentakilómetros.""" 
+        self.odometer_reading += miles
 
