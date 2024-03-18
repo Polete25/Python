@@ -1,0 +1,7 @@
+En Python se puede hacer muchas cosas. Desde trabajar con datos, hasta hacer
+videojuegos. Lo más importante es aprender a como utilizar el código en tu
+favor. 
+
+Hay que siempre estar aprendiendo.
+
+Python no te lo acabas.
