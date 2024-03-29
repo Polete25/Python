@@ -25,3 +25,14 @@ print(len(pi_string))
 
 path.write_text("I love programming.")
 
+try: 
+    print(5/0) 
+except ZeroDivisionError: 
+    print("You can't divide by zero!")
+
+"""Ponemos print(5/0), la línea que ha causado el error, dentro de un bloquetry.
+Si el código del bloque try funciona, Python omite el bloque except. Si el 
+código del bloque try provoca un error, Python busca un bloque except cuyo error
+coincida con el que se ha producido y ejecuta el código de ese bloque.
+"""
+    
