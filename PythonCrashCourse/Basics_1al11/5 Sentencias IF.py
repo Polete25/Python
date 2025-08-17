@@ -19,7 +19,7 @@ else:
     print("Sorry, you are too young to vote.")
     print("Please register to vote as soon as you turn")
 
-age = 12 
+age = 16
 if age < 4:
     print("Your admission cost is $0.") 
 elif age < 18:

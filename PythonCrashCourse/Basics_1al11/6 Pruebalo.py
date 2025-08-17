@@ -66,12 +66,12 @@ print(f'elif: {dic_prog['get']}')
 
 
 for palabra , definicion in dic_prog.items():
-    print(f"{palabra}:{definicion}")
+    print(f"\n{palabra}: {definicion}")
 
 dic_prog = {'for' : 'Bucle'}
 
 for palabra , definicion in dic_prog.items():
-    print(f"{palabra}:{definicion}")
+    print(f"\n{palabra}: {definicion}")
  
  
 #​6-5.  Ríos: Haga un diccionario con tres ríos importantes y el país por el que
@@ -93,9 +93,8 @@ for pais,rio in rios.items():
 #           •​Use un bucle para imprimir el nombre de cada río incluido en el
 #           diccionario. 
 
-for pais in rios.values():
-    rio = pais.title()
-    print(rio)
+for rio in rios.values():
+    print(rio.title())
 
 #           •​Use un bucle para imprimir el nombre de cada país incluido en el
 #           diccionario. 
@@ -103,7 +102,8 @@ for pais in rios.values():
 for pais in rios.keys():
     pais = pais.title()
     print(pais)
-    
+
+print(f'\n----\m')
 #​6-6.  Sondeos: Use el código de favorite_languages.py. 
 favorite_languages = { 
     'Jen': 'python',
